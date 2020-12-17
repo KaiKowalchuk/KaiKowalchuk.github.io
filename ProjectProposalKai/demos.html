@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kais Website</title>
+    <meta charset="utf-8">
+
+    <script>
+    function promptQuantity() {
+    var quantity;
+    quantity = prompt("Please guess a number between 1 and 10!");
+    if (quantity == 7) {
+    alert("Nice Guess!");
+    } else {
+    alert("Wrong Guess, Sorry!");
+    }
+    }
+    </script>
+    <link href="Project.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Kai Kowalchuk's Website</h1>
+            <h2 id="HeaderBox"><u>Demos Section</u></h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="info.html">Information</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </nav>
+        <h3>Web demos</h3>
+
+
+        <h4>Clock</h4>
+        <p id="timer"></p>
+        <script>
+            var d = new Date();
+            document.getElementById("timer").innerHTML = d;
+        </script>
+
+        <h4>Pop-up</h4>
+        <input type="button" class="button" value="Number Guess"
+               onclick="promptQuantity();">
+
+        <h4>Button not allowed</h4>
+        <a href="home.html" class="buttonNotAllowed">Home</a>
+
+        <h4>Resizeable Box</h4>
+        <div id="resize">
+            <p>You can resize this "Box" at the bottom left corner!</p>
+        </div>
+
+        <h4>Rotated Box</h4>
+        <div id="rotatedBox">
+            <p>This box should rotate slightly when you open this page. (Also hover over it!)</p>
+        </div>
+
+        <footer>
+            Kai Kowalchuk's Project Proposal
+        </footer>
+    </div>
+</body>
+</html>

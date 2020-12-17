@@ -1,0 +1,193 @@
+
+        body {
+            background-image: linear-gradient(to top, #FFAA6A, #C372FF);
+            background-color: #FFAA6A;
+            background-repeat: no-repeat;
+            font-family: Calibri, Verdana;
+        }
+
+        h1 {
+            height: 90px;
+            font-size: 3em;
+            padding-top: 40px;
+            border-style: solid;
+            border-color: #C372FF;
+            border-width: thick;
+            border-radius: 20px;
+            margin-top: 0;
+            text-align: center;
+            box-shadow: 5px 5px 5px #828282;
+            text-shadow: 2px 2px 2px #b9b9b9;
+        }
+
+        #container {
+            background-color: #FFFFFF;
+            padding: 2em;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            min-width: 800px;
+            border-style: solid;
+            border-color: #77daff;
+            border-width: thick;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px #828282;
+        }
+
+        nav {
+            float: right;
+            display:block;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        nav ul{
+            float:right;
+            padding: 10px;
+        }
+nav a {
+    background-color:aliceblue;
+    display: block;
+    color: #FFFFFF;
+    float: right;
+    font-size: small;
+    border-style: solid;
+    border-color: #FFAA6A;
+    border-width: thick;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #828282;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 10px;
+}
+
+#HeaderBox{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 10px;
+}
+
+            nav a:link {
+                color: #77daff;
+            }
+                nav a:visited {
+                color: #008aff;
+                }
+                nav a:hover {
+                    border-color: #C372FF;
+                    transition-duration: 0.4s;
+                    color: #FFAA6A;
+                }
+
+    nav a:active {
+        background-color: #FFAA6A;
+        color: white;
+        transform: translateX(10px);
+    }
+
+
+        footer {
+            color: #616161;
+            font-size: .80em;
+            font-style: italic;
+        }
+#note {
+    color: #616161;
+    font-size: .60em;
+    font-style: oblique
+}
+
+figcaption {
+    font-family: Calibri;
+    text-align: center;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #828282;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFAA6A;
+}
+
+
+.button {
+    color: #77daff;
+    font-size: 2em;
+    border-style: solid;
+    border-color: #C372FF;
+    border-width: thick;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #828282;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 10px;
+}
+
+    .button:hover {
+        transition-duration: 0.4s;
+        border-color: #FFAA6A;
+        color: #C372FF;
+    }
+
+.buttonNotAllowed {
+    color: #77daff;
+    font-size: 2em;
+    border-style: solid;
+    border-color: #C372FF;
+    border-width: thick;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #828282;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 10px;
+    cursor: not-allowed;
+}
+
+#resize {
+    border: 2px solid;
+    border-style: solid;
+    border-color: #FFAA6A;
+    border-width: thick;
+    border-radius: 20px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #828282;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 20px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+}
+
+#rotatedBox {
+    background-color: white;
+    border: 2px solid;
+    border-style: solid;
+    border-color: #FFAA6A;
+    border-width: thick;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #828282;
+    text-shadow: 2px 2px 2px #b9b9b9;
+    padding: 10px;
+    width: 300px;
+    transform: rotate(3deg);
+    transition: ease 10s;
+}
+
+    #rotatedBox:hover {
+        transform: rotate(360deg);
+        transition: ease 10s;
+    }
+
